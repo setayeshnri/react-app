@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import axios from "axios";
 
@@ -14,7 +13,7 @@ export default function Weather() {
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
       icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
-      description: response.data.weather[0].description
+      description: response.data.weather[0].description,
     });
   }
 
@@ -55,6 +54,3 @@ export default function Weather() {
     return form;
   }
 }
-
-
-
