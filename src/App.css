@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: rgba(173, 216, 230, 0.599);
+  padding: 300px;
+  border: inset 20px;
+  border-color: bisque;
+}
